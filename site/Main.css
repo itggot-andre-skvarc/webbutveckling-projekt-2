@@ -1,0 +1,96 @@
+header{
+    background-color: red;
+    height: 150px;
+    margin: 0;
+
+}
+
+h1{
+    margin: 2px;
+    font-size: 35px;
+    align-self: center;
+    
+}
+
+
+.jultimer{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+
+body{
+    margin:0;
+}
+
+.wrapper{
+    height: 100vh;
+    background-color:rgb(93, 228, 176);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    grid-template-areas: 
+    "vers1 vers1 bakrundsbild1"
+    "bakrundsbild2 vers2 vers2" 
+    "vers3 vers3 bakrundsbild3" ; 
+}
+main{
+    grid-area: main; 
+}
+
+.vers1{
+    grid-area: vers1;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+    height: 100%;
+}
+
+.vers2{
+    height: 100%;
+    grid-area: vers2; 
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blueviolet;
+}
+
+.vers3{
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: vers3;
+    background-color: green;
+}
+
+.bakrundsbild1{
+    height: 100%;
+    grid-area: bakrundsbild1;
+    background-color: black;
+
+}
+
+.bakrundsbild2{
+    height: 100%;
+    grid-area: bakrundsbild2;
+    background-color: hotpink;
+}
+
+.bakrundsbild3{
+    height: 100%;
+    grid-area: bakrundsbild3;
+    background-color: blue;
+}
+
+.p1{
+    margin: 50px;
+}
+
+.p2{
+    margin: 50px;
+}
+
+.p3{
+    margin: 50px;
+}
