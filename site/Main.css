@@ -44,8 +44,10 @@ main{
     grid-area: vers1;
     display: flex;
     justify-content: space-evenly;
-    background-color: blue;
+    background-image: url(img/Vers\ 1..jpg);
     height: 100%;
+    position: relative;
+    left: 0;
 }
 
 .vers2{
@@ -53,7 +55,7 @@ main{
     grid-area: vers2; 
     display: flex;
     justify-content: space-evenly;
-    background-color: blueviolet;
+    background-image: url(img/Vers\ 2.jpg);
 }
 
 .vers3{
@@ -61,30 +63,34 @@ main{
     display: flex;
     justify-content: space-evenly;
     grid-area: vers3;
-    background-color: green;
+    background-image: url(img/Vers\ 3.jpg);
 }
 
 .bakrundsbild1{
     height: 100%;
     grid-area: bakrundsbild1;
-    background-color: black;
+    background-image: url(img/roberto-nickson-715417-unsplash.jpg);
 
 }
 
 .bakrundsbild2{
     height: 100%;
     grid-area: bakrundsbild2;
-    background-color: hotpink;
+    background-image: url(img/larisa-birta-480403-unsplash.jpg);
 }
 
 .bakrundsbild3{
     height: 100%;
     grid-area: bakrundsbild3;
-    background-color: blue;
+    background-image: url(img/mourad-saadi-492065-unsplash.jpg) ;
 }
 
 .p1{
-    margin: 50px;
+    margin: 20px;
+    width: 70%;
+    left: -200%;
+    transition: left 0.3s;
+    position: absolute;
 }
 
 .p2{
@@ -93,4 +99,20 @@ main{
 
 .p3{
     margin: 50px;
+}
+
+
+/*meny{
+    height: 100vh;
+    widows: 80%;
+    background: aqua;
+    position: fixed;
+    top: 0;
+    left: -99%;
+    transition: left 0.3s;
+
+
+}
+.menyknapp{
+    
 }
